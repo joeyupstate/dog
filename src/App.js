@@ -1,26 +1,66 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component, Fragment} from "react"
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import Header from "./components/Header"
+import Home from './components/Home'
+import Services from "./components/Services"
+import Nav from "./components/Nav"
+import About from "./components/About"
+import Footer from "./components/Footer"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+
+render(){
+
+  return(
+    <Router>
+    
+      <Nav toggleMenu={this.toggleMenu} />
+      <Header toggleMenu={this.toggleMenu} />
+      {this.renderRoutes()}
+      <Footer />
+   
+      
+     </Router>
+
+
+
+
+);
+}
+renderRoutes = () => (
+  <Fragment>
+    <Route
+      exact
+      path="/"
+      render={() => <Home />}
+    />
+    <Route
+      path="/services"
+      render={() => <Services />}
+    />
+
+    <Route
+      path="/about"
+      render={() => <About />}
+    />
+ 
+  </Fragment>
+)
+
+toggleMenu = () => {
+  const nav = document.querySelector('.nav');
+  if (nav) {
+    if (!nav.classList.contains('reveal')) {
+      nav.classList.remove('hide');
+      nav.classList.add('reveal');
+    } else {
+      nav.classList.add('hide');
+      nav.classList.remove('reveal');
+    }
+  }
 }
 
-export default App;
+
+}
+
+export default App

@@ -1,13 +1,91 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,
+body{
+  height:100%;
+  width:100%;
+  margin:0;
+  overflow:hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.Header{
+  height:100px;
+  width:100%;
+  background-color:teal;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:row;
 }
+
+.burger-image{
+height:40px;
+width:40px;
+float:right;
+margin-right:10px;
+
+}
+
+.paw-image{
+  height:70px;
+width:70px;
+float:right;
+margin-left:10px;
+
+
+
+}
+.nav {
+  font-family: bilo, sans-serif;
+  font-size: 19px;
+  position: fixed;
+  z-index: 1000;
+  background: rgb(213, 224, 226);
+  height: 50vh;
+  width: 50%;
+  border-radius: 0px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-fill-mode: forwards;
+  animation-duration: 0.25s; }
+  .nav.reveal {
+    animation-name: slidein; }
+@keyframes slidein {
+  to {
+    margin-right: 0; } }
+  .nav.hide {
+    animation-name: slideout; }
+@keyframes slideout {
+  from {
+    margin-right: 0; }
+  to {
+    margin-right: -100vw; } }
+  .nav .item {
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: #000000; }
+  .nav .close {
+    background: #00000029;
+    color: #ffffff;
+    font-size: 35px;
+    height: 40px;
+    width: 40px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 30px;
+    border-radius: 30px; }
+
+
+    .footer{
+      width: 100%;
+      position:fixed;
+      height:50px;
+      top:900px;
+      background-color:red;
+    }
