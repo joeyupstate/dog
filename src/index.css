@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
 html,
 body{
   height:100%;
   width:100%;
   margin:0;
-  overflow:hidden;
+
+  background-color:#f5f9fa
 }
 
 
@@ -32,6 +35,59 @@ float:right;
 margin-left:10px;
 
 
+
+}
+
+.title{
+  font-family: 'PT Sans', sans-serif;
+  color:#010080;
+
+}
+.sub-title{
+  font-family: 'PT Sans', sans-serif;
+  color:#010080;
+  margin-top:-20px;
+
+}
+
+.home-page{
+
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+
+
+}
+.divider{
+  width:80%;
+  height:5px;
+  background-color:#008080;
+  border-radius:5px;
+}
+.dog-photo{
+  height:500px;
+  width:300px;
+}
+
+.start-button{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:200px;
+  height:50px;
+  background-color:white;
+  border:7px solid #010080;
+  border-radius:5px;
+  position:relative;
+  top:-250px;
+
+}
+.button-title{
+  font-family: 'PT Sans', sans-serif;
+  color:#010080;
+  font-size: 20px;
 
 }
 .nav {
@@ -84,8 +140,17 @@ margin-left:10px;
 
     .footer{
       width: 100%;
-      position:fixed;
-      height:50px;
-      top:900px;
-      background-color:red;
+      position:relative;
+      height:100px;
+      bottom:0PX;
+      left:0;
+     top:850px;
+      background-color:#010080;
+    }
+
+    .list-block{
+      height:300px;
+      width:100%;
+      background-color:#008080;
+      margin-top:-50px;
     }
