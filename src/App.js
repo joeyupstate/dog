@@ -6,6 +6,7 @@ import Services from "./components/Services"
 import Nav from "./components/Nav"
 import About from "./components/About"
 import Footer from "./components/Footer"
+import Advertise from "./components/Advertise"
 
 class App extends Component{
 
@@ -18,7 +19,7 @@ render(){
       <Header toggleMenu={this.toggleMenu} />
       {this.renderRoutes()}
       <Footer />
-   
+     
       
      </Router>
 
@@ -42,6 +43,10 @@ renderRoutes = () => (
     <Route
       path="/about"
       render={() => <About />}
+    />
+      <Route
+      path="/avertise"
+      render={() => <Advertise />}
     />
  
   </Fragment>
