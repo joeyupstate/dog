@@ -1,12 +1,12 @@
 import React, {Component, Fragment} from "react"
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Header from "./components/Header"
-import Home from './components/Home'
-import Services from "./components/Services"
-import Nav from "./components/Nav"
-import About from "./components/About"
-import Footer from "./components/Footer"
-import Advertise from "./components/Advertise"
+import Header from "./components/shared/Header"
+import Home from './components/pages/Home'
+import Services from "./components/pages/Services"
+import Nav from "./components/shared/Nav"
+import About from "./components/pages/About"
+import Footer from "./components/shared/Footer"
+import Advertise from "./components/pages/Advertise"
 
 class App extends Component{
 

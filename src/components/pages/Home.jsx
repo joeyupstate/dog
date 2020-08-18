@@ -1,9 +1,9 @@
 import React, {Component} from "react"
-import List from "./List";
-import Button from "./Button";
+import List from "../shared/List";
+import Button from "../shared/Button";
 
 const ASSETS ={
-    doggy: require('../assets/doggy.jpg'),
+    doggy: require('../../assets/doggy.jpg'),
     
 };
 

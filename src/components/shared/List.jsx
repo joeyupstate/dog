@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 const ASSETS ={
-    award: require('../assets/award2.png'),
+    award: require('../../assets/award2.png'),
     
 };
 

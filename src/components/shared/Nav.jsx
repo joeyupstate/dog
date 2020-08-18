@@ -13,7 +13,7 @@ class Nav extends React.Component {
         to: '/services'
       },
       {
-        title: 'About',
+        title: 'Our Story',
         to: '/about'
       }
    

@@ -2,9 +2,9 @@ import React, {Component} from "react"
 import { Link } from 'react-router-dom';
 
 const ASSETS = {
-    facebookLogo: require("../assets/facebook.png"),
-    redditLogo: require("../assets/reddit.png"),
-    twitterLogo: require("../assets/twitter.png")
+    facebookLogo: require("../../assets/facebook.png"),
+    redditLogo: require("../../assets/reddit.png"),
+    twitterLogo: require("../../assets/twitter.png")
   };
   
 
@@ -20,7 +20,7 @@ class Footer extends Component{
               to: '/services'
             },
             {
-              title: 'About',
+              title: 'Our Story',
               to: '/about'
             },
             {
@@ -32,6 +32,7 @@ class Footer extends Component{
 
         return(
             <div className = "footer">
+              <div className = "icon-row">
           <img
           className="icons"
           src={ASSETS.facebookLogo}
@@ -47,6 +48,7 @@ class Footer extends Component{
           src={ASSETS.twitterLogo}
         alt="redditLogo"
         />
+        </div>
             <div className="links">
                 {PAGES.map((page)=>(
                     <Link

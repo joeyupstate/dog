@@ -1,8 +1,8 @@
 import React, {Component} from "react"
 
 const ASSETS ={
-    hamburger: require('../assets/buger.png'),
-    paw: require('../assets/paw3.jpg')
+    hamburger: require('../../assets/buger.png'),
+    paw: require('../../assets/paw3.jpg')
 };
 
 
