@@ -8,6 +8,7 @@ import About from "./components/pages/About"
 import Footer from "./components/shared/Footer"
 import Advertise from "./components/pages/Advertise"
 
+
 class App extends Component{
 
 render(){
@@ -18,6 +19,7 @@ render(){
       <Nav toggleMenu={this.toggleMenu} />
       <Header toggleMenu={this.toggleMenu} />
       {this.renderRoutes()}
+  
       <Footer />
      
       
@@ -64,6 +66,7 @@ toggleMenu = () => {
     }
   }
 }
+
 
 
 }
