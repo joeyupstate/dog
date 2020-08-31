@@ -242,6 +242,24 @@ body {
   flex-direction:column;
 }
 
+.service-title{
+  font-size:30px;
+  font-family: "PT Sans", sans-serif;
+  color: #010080;
+  margin-top:60px;
+}
+
+.service-description{
+  font-family: "PT Sans", sans-serif;
+  margin-top:10px;
+
+  width:90%;
+}
+.service-photos{
+
+  height:100px;
+}
+
 /*Footer */
 
 .footer {
