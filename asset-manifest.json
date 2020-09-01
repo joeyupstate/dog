@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/dog/static/css/main.28772848.chunk.css",
+    "main.js": "/dog/static/js/main.ff9bd64f.chunk.js",
+    "main.js.map": "/dog/static/js/main.ff9bd64f.chunk.js.map",
+    "runtime-main.js": "/dog/static/js/runtime-main.d9caf453.js",
+    "runtime-main.js.map": "/dog/static/js/runtime-main.d9caf453.js.map",
+    "static/js/2.70ea7512.chunk.js": "/dog/static/js/2.70ea7512.chunk.js",
+    "static/js/2.70ea7512.chunk.js.map": "/dog/static/js/2.70ea7512.chunk.js.map",
+    "index.html": "/dog/index.html",
+    "precache-manifest.f1bcff8eeb5b36e951b3e317ec92944d.js": "/dog/precache-manifest.f1bcff8eeb5b36e951b3e317ec92944d.js",
+    "service-worker.js": "/dog/service-worker.js",
+    "static/css/main.28772848.chunk.css.map": "/dog/static/css/main.28772848.chunk.css.map",
+    "static/js/2.70ea7512.chunk.js.LICENSE.txt": "/dog/static/js/2.70ea7512.chunk.js.LICENSE.txt",
+    "static/media/blood.jpg": "/dog/static/media/blood.6c63b87a.jpg",
+    "static/media/brush.jpg": "/dog/static/media/brush.683651c7.jpg",
+    "static/media/doggy.jpg": "/dog/static/media/doggy.3ce3a1f8.jpg",
+    "static/media/fine.jpg": "/dog/static/media/fine.d2ac399c.jpg",
+    "static/media/jam.jpg": "/dog/static/media/jam.c0cde466.jpg",
+    "static/media/left-arrow.svg": "/dog/static/media/left-arrow.34a4f31c.svg",
+    "static/media/mandog.jpg": "/dog/static/media/mandog.2b9492e2.jpg",
+    "static/media/paw-no-title.jpg": "/dog/static/media/paw-no-title.3ca0861f.jpg",
+    "static/media/paw3.jpg": "/dog/static/media/paw3.29ec7486.jpg",
+    "static/media/reddit.png": "/dog/static/media/reddit.0f5c3c2a.png",
+    "static/media/right-arrow.svg": "/dog/static/media/right-arrow.5e5b72cc.svg",
+    "static/media/shirt.jpg": "/dog/static/media/shirt.5419d8fe.jpg",
+    "static/media/twitter.png": "/dog/static/media/twitter.7e7a22a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9caf453.js",
+    "static/js/2.70ea7512.chunk.js",
+    "static/css/main.28772848.chunk.css",
+    "static/js/main.ff9bd64f.chunk.js"
+  ]
+}
